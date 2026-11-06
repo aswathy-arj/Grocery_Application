@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="report_Generation.Listeners"></listener>
+	</listeners>
+	<parameter
+		name="browsers" value="chrome"></parameter>
+	<test thread-count="5"
+		name="Test">
+		<classes>
+			<!--<class name="testScripts.ManagePages_Test">
+				<methods>
+					<include name="verifyWhetherUserIsAbleToSearchPage"></include>
+				</methods>
+				<<class name="testScripts.Home_Test"/>-->
+
+			<class name="testScripts.Login_Test">
+
+				<methods>
+
+					<include name="userLoginWithInvalidUsernameValidPassword"></include>
+
+				</methods>
+			
+			</class>
+		</classes>
+	</test>
+	</suite> <!--
+Suite -->

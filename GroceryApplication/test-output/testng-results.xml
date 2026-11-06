@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-04T19:49:14 IST" name="Suite" finished-at="2026-11-04T19:49:30 IST" duration-ms="15534">
+    <groups>
+      <group name="smoke">
+        <method signature="Login_Test.userLoginWithInvalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testScripts.Login_Test@1e16c0aa]" name="userLoginWithInvalidUsernameValidPassword" class="testScripts.Login_Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-11-04T19:49:14 IST" name="Test" finished-at="2026-11-04T19:49:30 IST" duration-ms="15534">
+      <class name="testScripts.Login_Test">
+        <test-method is-config="true" signature="intializebrowser(java.lang.String)[pri:0, instance:testScripts.Login_Test@1e16c0aa]" started-at="2026-11-04T19:49:14 IST" name="intializebrowser" finished-at="2026-11-04T19:49:25 IST" duration-ms="10439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializebrowser -->
+        <test-method signature="userLoginWithInvalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testScripts.Login_Test@1e16c0aa]" started-at="2026-11-04T19:49:25 IST" name="userLoginWithInvalidUsernameValidPassword" description="user is trying to login with invalid username and valid password" data-provider="loginData" finished-at="2026-11-04T19:49:25 IST" duration-ms="909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginWithInvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScripts.Login_Test@1e16c0aa]" started-at="2026-11-04T19:49:25 IST" name="closeBrowser" finished-at="2026-11-04T19:49:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userLoginWithInvalidUsernameValidPassword status=SUCCESS method=Login_Test.userLoginWithInvalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testScripts.Login_Test@1e16c0aa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="intializebrowser(java.lang.String)[pri:0, instance:testScripts.Login_Test@1e16c0aa]" started-at="2026-11-04T19:49:26 IST" name="intializebrowser" finished-at="2026-11-04T19:49:29 IST" duration-ms="3462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializebrowser -->
+        <test-method signature="userLoginWithInvalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testScripts.Login_Test@1e16c0aa]" started-at="2026-11-04T19:49:29 IST" name="userLoginWithInvalidUsernameValidPassword" description="user is trying to login with invalid username and valid password" data-provider="loginData" finished-at="2026-11-04T19:49:30 IST" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginWithInvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScripts.Login_Test@1e16c0aa]" started-at="2026-11-04T19:49:30 IST" name="closeBrowser" finished-at="2026-11-04T19:49:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userLoginWithInvalidUsernameValidPassword status=SUCCESS method=Login_Test.userLoginWithInvalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:4, instance:testScripts.Login_Test@1e16c0aa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.Login_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
