@@ -6,8 +6,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import assignment_01.TestNGBase;
 import constant.Constant;
+import main_project.GA_Base;
 import pages.AdminUser_Page;
 import pages.Home_Page;
 import pages.Login_Page;
@@ -15,7 +15,7 @@ import pages.ManageDeliveryBoy_Page;
 import utilities.Excel_Utilities;
 import utilities.RandomDataUtility;
 
-public class ManageDeliveryBoy_Test extends TestNGBase{
+public class ManageDeliveryBoy_Test extends GA_Base{
 	ManageDeliveryBoy_Page manage;
 	Home_Page hp;
 	@Test(description="user is trying to add new delivery boy")

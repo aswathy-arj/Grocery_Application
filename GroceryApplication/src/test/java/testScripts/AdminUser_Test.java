@@ -5,15 +5,15 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import assignment_01.TestNGBase;
 import constant.Constant;
+import main_project.GA_Base;
 import pages.AdminUser_Page;
 import pages.Home_Page;
 import pages.Login_Page;
 import utilities.Excel_Utilities;
 import utilities.RandomDataUtility;
 
-public class AdminUser_Test extends TestNGBase{
+public class AdminUser_Test extends GA_Base{
 	Home_Page newHome;
 	AdminUser_Page auPage;
 	@Test(description="user is trying to add new admin user")

@@ -11,8 +11,8 @@ import com.aventstack.extentreports.Status;
 
 import utilities.Extentreport_Utility;
 
-public class Listeners implements ITestListener{
-	
+public class Listeners implements ITestListener{ //Listeners is to implement extent report
+	//Predefined interface --- ITestListener
 	ExtentTest test;
 	ExtentReports extent = Extentreport_Utility.createExtentReports();//Extentreport_Utility -- class name
 	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();

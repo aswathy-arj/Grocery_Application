@@ -5,15 +5,15 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import assignment_01.TestNGBase;
 import constant.Constant;
+import main_project.GA_Base;
 import pages.AdminUser_Page;
 import pages.Home_Page;
 import pages.Login_Page;
 import pages.ManagePages_Page;
 import utilities.Excel_Utilities;
 
-public class ManagePages_Test extends TestNGBase{
+public class ManagePages_Test extends GA_Base{
 	ManagePages_Page mpPage;
 	Home_Page hpPage;
 	@Test

@@ -30,8 +30,8 @@ public class Screenshot_Utilities {
 		// String destination = f1.getPath() + "//" + failedTestCase + timeStamp +
 		// ".png";
 
-		File finalDestination = new File(destination);// 
+		File finalDestination = new File(destination);// details such as failedtestcase, timestamp, etc..in the destination is given in final destination 
 		FileHandler.copy(screenShot, finalDestination);//import selenium.io
-		} //
+		} //copy the captured images that was stored in the file named screenShot.
 
 }

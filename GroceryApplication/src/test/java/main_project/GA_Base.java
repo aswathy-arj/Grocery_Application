@@ -1,4 +1,4 @@
-package assignment_01;
+package main_project;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -18,7 +18,7 @@ import org.testng.annotations.Parameters;
 import constant.Constant;
 import utilities.Screenshot_Utilities;
 
-public class TestNGBase {
+public class GA_Base {
 public WebDriver driver;//WebDriver is a predefined interface to launch browser
 
 Properties property;

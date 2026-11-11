@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class Page_Utilities {
+public class Page_Utilities { // page helper class
 	
 	public void selectDragDropWithValue(WebElement element, String value) {
 

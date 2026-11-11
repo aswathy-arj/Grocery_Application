@@ -17,7 +17,7 @@ public class Excel_Utilities {
 	static XSSFSheet sh; // XSSFSheet - to represent a sheet in the excel workbook
 
 	public static String readStringData(int row, int col, String sheet) throws IOException { 
-		f = new FileInputStream(Constant.TEST_DATA); //to open the excel file from the given location. Constant class is used to read the url
+		f = new FileInputStream(Constant.TEST_DATA); //to open the excel file from the location. Constant class is used to read the url
 		w = new XSSFWorkbook(f);//to load excel file to the memory using apache poi.
 		sh = w.getSheet(sheet);//to select the sheet named as "sheet1" from the workbook
 		XSSFRow r = sh.getRow(row);//to get the row based on the row number passed as argument or parameter.

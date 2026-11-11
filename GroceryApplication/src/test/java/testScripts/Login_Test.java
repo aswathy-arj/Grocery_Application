@@ -8,13 +8,13 @@ import org.testng.annotations.Test;
 
 import com.sun.net.httpserver.Authenticator.Retry;
 
-import assignment_01.TestNGBase;
 import constant.Constant;
+import main_project.GA_Base;
 import pages.Home_Page;
 import pages.Login_Page;
 import utilities.Excel_Utilities;
 
-public class Login_Test extends TestNGBase{
+public class Login_Test extends GA_Base{
 	Home_Page home;//to refer 
 	@Test(priority=1,description="user is trying to login with valid credentials")
 	//To execute the Testcases in order using priority concept.

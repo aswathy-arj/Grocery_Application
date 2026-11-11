@@ -15,10 +15,10 @@ public class AdminUser_Page {
 	
 public WebDriver driver;
 Page_Utilities page = new Page_Utilities(); //created object for page utilities to use the methods.
-	
+	 
 	public AdminUser_Page(WebDriver driver) {
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this);//PageFactory is a predefined class. POM with page factory --- design technique
 		}
 	
 	@FindBy(linkText = "New")WebElement newButton;

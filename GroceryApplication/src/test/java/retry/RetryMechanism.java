@@ -5,7 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-public class RetryMechanism implements IRetryAnalyzer{
+public class RetryMechanism implements IRetryAnalyzer{ //Predefined interface -- IRetryAnalyzer 
 	
 	private static final Logger LOG = (Logger) LogManager.getLogger("Retry.class");
 	private static final int maxTry = 2;//maxTry used to store total number of retry. maxTry is not fixed variable and can change the value

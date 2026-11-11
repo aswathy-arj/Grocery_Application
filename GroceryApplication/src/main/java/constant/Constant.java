@@ -4,7 +4,7 @@ public class Constant {
 	
 	public static final String CONFIG_FILE = System.getProperty("user.dir")+"\\src\\main\\resources\\config.properties";
 	//Constant variable in caps.
-	//to get the local path automatically, use "System.getProperty("user.dir")". user.dir means user directly
+	//to get the local path automatically, use "System.getProperty("user.dir")". user.dir means user directory
 	
 	public static final String TEST_DATA = System.getProperty("user.dir")+"\\src\\test\\resources\\GroceryAppData.xlsx";
 	
